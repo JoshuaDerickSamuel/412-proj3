@@ -1,0 +1,27 @@
+# Load balancer simulation config
+initialServers=10
+simulationCycles=10000
+initialQueueMultiplier=100
+
+# Request generation
+minRequestTime=5
+maxRequestTime=200
+randomArrivalMin=0
+randomArrivalMax=0
+processingJobProbability=0.60
+
+# Scaling Rules
+scaleLowMultiplier=50
+scaleHighMultiplier=80
+scaleCooldownCycles=30
+
+# Blocked IP addresses
+blockedCidrs=10.0.0.0/8,192.168.0.0/16
+
+# Output Log File
+logFile=simulation.log
+
+# Job Seperators
+useSwitchMode=true
+streamingInitialServers=5
+processingInitialServers=5
