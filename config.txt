@@ -5,9 +5,9 @@ initialQueueMultiplier=100
 
 # Request generation
 minRequestTime=5
-maxRequestTime=200
+maxRequestTime=50
 randomArrivalMin=0
-randomArrivalMax=0
+randomArrivalMax=1
 processingJobProbability=0.60
 
 # Scaling Rules
